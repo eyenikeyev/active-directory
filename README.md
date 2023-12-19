@@ -60,6 +60,9 @@ It being dynamic will make it difficult for the vm to communicate with our clien
 <p>
 Connect to Remote Desktop with Client-1 public ip address. Open command prompt and enter the command ping -t [DC-1 private ip address]. To send endless ping in order ensure reachability with the Domain Controller. Connection should time out after the first ping due to the Domain Controller's Firewall Settings.
 <p>
-<img src="https://i.imgur.com/SQyRnqp.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/SQyRnqp.png" height="40%" width="40%" alt="Disk Sanitization Steps"/>
 <p>
 Log into DC-1 vm, click start and open wf.msc in search bar to open windows defender firewall and advanced security. Go to Inbound Rules and enable the rules under the protocol ICMPv4, specifically Core Networking Diagnostics - ICMP Echo Request (ICMPv4-In)
+<p>
+<img src="https://i.imgur.com/ZtDs3kS.png" height="60%" width="60%" alt="Disk Sanitization Steps"/>
+<p>
