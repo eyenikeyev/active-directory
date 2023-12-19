@@ -119,5 +119,5 @@ Access the Azure Portal and go to DC-1, go to networking and take note of the pr
 <p>
 Go to the Client vm, go to Settings then System, About, then Rename this PC (advanced)
 <p>
-Enter the domain and credentials in order to let the client join the domain (logging in as jane admin). For example, the login credentials have to be input as - mydomain.com\jane_admin
+Enter the domain and credentials in order to let the client join the domain (logging in as jane admin). For example, the login credentials have to be input as: mydomain.com\jane_admin
 <p>
