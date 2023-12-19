@@ -26,9 +26,14 @@ This Lab demonstrates how to install and configure Active Directory using Azure.
 
 <br />
 
+
 <h2>Installation Steps</h2>
 
-<h3>Setting up Resources in Azure</h3>
+<h3>Creating Resources in Azure</h3>
 
 <p>
   <ul>
+</p>
+Go to Azure Portal, create a virtual machine for the Domain Controller, name it DC-1. Create a second virtual machine and name it Client-1, the vms should be on the same virtual networks
+</p>
+<p>
