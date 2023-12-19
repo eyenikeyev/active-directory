@@ -100,3 +100,7 @@ Organizational Units act like folders that hold information, privelages, and log
 <p>
 <img src="https://i.imgur.com/Y8JmdnM.png" height="60%" width="60%" alt="Disk Sanitization Steps"/>
 <p>
+Go to the user Jane Doe and open Properties, add her in Member Of as Domain Admins. This is to grant Jane admin privelages.
+<p>
+<img src="https://i.imgur.com/wu7x70F.png" height="60%" width="60%" alt="Disk Sanitization Steps"/>
+<p>
