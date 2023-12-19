@@ -70,3 +70,10 @@ Go to Client-1 vm and you should be able to see replies
 <p>
 <img src="https://i.imgur.com/3DsTP8X.png" height="60%" width="60%" alt="Disk Sanitization Steps"/>
 <p>
+</p>
+
+<br />
+
+<h3>Installing Active Directory on the Domain Controller</h3>
+
+<p>
