@@ -136,3 +136,5 @@ Remote Desktop has to be enabled for non administrative users, before users in t
 <p>
 In DC-1 vm being logged in as jane_admin, open Powershell ISE as administrator. With <a href = "https://github.com/joshmadakor1/AD_PS/blob/master/Generate-Names-Create-Users.ps1">this powershell script</a> we will create randomly generated accounts all with the password "Password1". In Powershell ISE, create a new file and copy and paste the powershell script into the file, on the third line edit the number of users created from 10000 to 100, then run the script. All these users are generated and put into the _employees organizational unit in the Active Directory.
 <p>
+<img src="https://i.imgur.com/ueeHHOY.png" height="60%" width="60%" alt="Disk Sanitization Steps"/>
+<p>
