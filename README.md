@@ -139,6 +139,6 @@ Go to Active Directory Users and Computers, select a random username to acquire 
 <p>
 <img src="https://i.imgur.com/yA7Nw8L.png" height="60%" width="60%" alt="Disk Sanitization Steps"/>
 <p>
-Log into the Client vm using the generated username you have selected (mydomain.com\username) and the password "Password 1". If this works everything was done correctly.
+Log into the Client vm using the generated username you have selected (mydomain.com\username) and the password "Password1". If this works everything was done correctly.
 <p>
 This is the conclusion of the lab
