@@ -38,5 +38,4 @@ Go to Azure Portal, create a virtual machine for the Domain Controller, name it 
 </p>
 <p>
 <img src="https://imgur.com/a/kDd3Lxd" height="60%" width="60%" alt="Disk Sanitization Steps"/>
-</p>
-<img src="https://imgur.com/a/kDd3Lxd" height="60%" width="60%" alt="Disk Sanitization Steps"/>
+<p>
