@@ -113,3 +113,5 @@ Exit out of the vm, sign back in with username jane_admin
 <h3>Joining the Client to the Domain</h3>
 
 <p>
+Access the Azure Portal and go to DC-1, go to networking and take note of the private ip address. Repeat the same steps for Client-1 click on the link next to network interface. In DNS servers under Settings, set the DNS server to Custom. Then enter DC-1 private ip address and save. Go to Client vm and restart it to save changes.
+<p>
