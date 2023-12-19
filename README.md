@@ -134,3 +134,4 @@ Remote Desktop has to be enabled for non administrative users, before users in t
 <h3>Creating Additional Users</h3>
 
 <p>
+In DC-1 vm being logged in as jane_admin, open Powershell ISE as administrator. With this https://github.com/joshmadakor1/AD_PS/blob/master/Generate-Names-Create-Users.ps1 
