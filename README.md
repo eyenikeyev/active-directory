@@ -77,3 +77,7 @@ Go to Client-1 vm and you should be able to see replies. Enter Ctrl C to end tra
 <h3>Installing Active Directory on the Domain Controller</h3>
 
 <p>
+In DC-1, go to the Server Manager Dashboard and click on Add Roles and Features. Go through the installation process and upon getting to Server Roles, make sure to check the box for Active Directory Domain Services
+<p>
+<img src="https://i.imgur.com/wXo6MHZ.png" height="60%" width="60%" alt="Disk Sanitization Steps"/>
+<p>
