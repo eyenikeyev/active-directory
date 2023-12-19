@@ -68,3 +68,5 @@ Log into DC-1 vm, click start and open wf.msc in search bar to open windows defe
 <p>
 Go to Client-1 vm and you should be able to see replies
 <p>
+<img src="https://i.imgur.com/3DsTP8X.png" height="60%" width="60%" alt="Disk Sanitization Steps"/>
+<p>
