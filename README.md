@@ -127,3 +127,10 @@ Remote Desktop has to be enabled for non administrative users, before users in t
 <p>
 <img src="https://i.imgur.com/jcb8ZQA.png" height="60%" width="60%" alt="Disk Sanitization Steps"/>
 <p>
+</p>
+
+<br />
+
+<h3>Creating Additional Users</h3>
+
+<p>
