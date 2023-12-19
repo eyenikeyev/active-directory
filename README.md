@@ -44,3 +44,5 @@ Create a second virtual machine and name it Client-1, the vms should be on the s
 <p>
 Go to DC-1 click on Networking under Setttings, click on the Network Interface link. Go to IP configurations under Settings. Click on ipconfig link to open up a window, change the IP Configuration to Static under Allocation
 <p>
+It being dynamic will make it difficult for the vm to communicate with our client vm
+<p>
