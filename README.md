@@ -46,5 +46,5 @@ Go to DC-1 click on Networking under Setttings, click on the Network Interface l
 <p>
 It being dynamic will make it difficult for the vm to communicate with our client vm
 <p>
-<img src="https://i.imgur.com/7RszLbd.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/7RszLbd.png" height="40%" width="40%" alt="Disk Sanitization Steps"/>
 <p>
