@@ -32,7 +32,6 @@ This Lab demonstrates how to install and configure Active Directory using Azure.
 <h3>Creating Resources in Azure</h3>
 
 <p>
-  <ul>
 </p>
 Go to Azure Portal, create a virtual machine for the Domain Controller, name it DC-1
 </p>
