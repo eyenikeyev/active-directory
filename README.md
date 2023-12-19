@@ -49,9 +49,11 @@ It being dynamic will make it difficult for the vm to communicate with our clien
 <img src="https://i.imgur.com/7RszLbd.png" height="40%" width="40%" alt="Disk Sanitization Steps"/>
 <p>
 </p>
+</ul>
 
 <br />
 
 <h3>Ensuring Connectivity</h3>
 
 <p>
+<ul>
