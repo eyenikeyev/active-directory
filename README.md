@@ -87,3 +87,12 @@ When installed, we now have to promote the server into a domain controller. You 
 <p>
 When logging into DC-1 through RDP, rememeber to login with the correct credentials. For example mydomain.com\labuser
 <p>
+</p>
+
+<br />
+
+<h2>Configuration Steps</h2>
+
+<h3>Creating Organizational Units and Users</h3>
+
+<p>
