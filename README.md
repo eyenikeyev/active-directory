@@ -125,3 +125,5 @@ Enter the domain and credentials in order to let the client join the domain (log
 <p>
 Remote Desktop has to be enabled for non administrative users, before users in the domain can use the client computer. While logged in as the administrator (jane_admin), open System Properties. Click on Remote Desktop and Select users that can remotely access this PC, select Add, and enter domain users.
 <p>
+<img src="https://i.imgur.com/jcb8ZQA.png" height="60%" width="60%" alt="Disk Sanitization Steps"/>
+<p>
