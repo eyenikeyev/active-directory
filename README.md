@@ -60,5 +60,5 @@ It being dynamic will make it difficult for the vm to communicate with our clien
 <p>
 Connect to Remote Desktop with Client-1 public ip address. Open command prompt and enter the command ping -t [DC-1 private ip address]. To send endless ping in order ensure reachability with the Domain Controller. Connection should time out after the first ping due to the Domain Controller's Firewall Settings.
 <p>
-<img src="https://i.imgur.com/SQyRnqp.png" height="40%" width="40%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/SQyRnqp.png" height="60%" width="60%" alt="Disk Sanitization Steps"/>
 <p>
