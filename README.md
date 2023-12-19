@@ -104,3 +104,12 @@ Go to the user Jane Doe and open Properties, add her in Member Of as Domain Admi
 <p>
 <img src="https://i.imgur.com/wu7x70F.png" height="40%" width="40%" alt="Disk Sanitization Steps"/>
 <p>
+Exit out of the vm, sign back in with username jane_admin
+<p>
+</p>
+
+<br />
+
+<h3>Joining the Client to the Domain</h3>
+
+<p>
