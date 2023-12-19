@@ -117,3 +117,7 @@ Access the Azure Portal and go to DC-1, go to networking and take note of the pr
 <p>
 <img src="https://i.imgur.com/jHeRIwi.png" height="40%" width="40%" alt="Disk Sanitization Steps"/>
 <p>
+Go to the Client vm, go to Settings then System, About, then Rename this PC (advanced)
+<p>
+Enter the domain and credentials in order to let the client join the domain (logging in as jane admin). For example, the login credentials have to be input as - mydomain.com\jane_admin
+<p>
