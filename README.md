@@ -138,3 +138,5 @@ In DC-1 vm being logged in as jane_admin, open Powershell ISE as administrator. 
 <p>
 <img src="https://i.imgur.com/ueeHHOY.png" height="60%" width="60%" alt="Disk Sanitization Steps"/>
 <p>
+Go to Active Directory Users and Computers, select a random username to acquire the login information by going to Properties and in the Account tab. The username generated should appear as [first name].[last name].
+<p>
