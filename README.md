@@ -62,4 +62,4 @@ Connect to Remote Desktop with Client-1 public ip address. Open command prompt a
 <p>
 <img src="https://i.imgur.com/SQyRnqp.png" height="50%" width="50%" alt="Disk Sanitization Steps"/>
 <p>
-Log into DC-1 vm, click start and open wf.msc in search bar to open windows defender firewall and advanced security. Go to Inbound Rules and enable the rules under the protocol ICMP<p>v4, specifically Core Networking Diagnostics - ICMP Echo Request (ICMPv4-In)
+Log into DC-1 vm, click start and open wf.msc in search bar to open windows defender firewall and advanced security. Go to Inbound Rules and enable the rules under the protocol ICMPv4, specifically Core Networking Diagnostics - ICMP Echo Request (ICMPv4-In)
