@@ -85,3 +85,5 @@ When installed, we now have to promote the server into a domain controller. You 
 <p>
 <img src="https://i.imgur.com/6e8Hsc4.png" height="60%" width="60%" alt="Disk Sanitization Steps"/>
 <p>
+When logging into DC-1 through RDP, rememeber to login with the correct credentials. For example mydomain.com\labuser
+<p>
