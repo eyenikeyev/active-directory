@@ -42,5 +42,5 @@ Create a second virtual machine and name it Client-1, the vms should be on the s
 <p>
 <img src="https://i.imgur.com/dBKmM5w.png" height="60%" width="60%" alt="Disk Sanitization Steps"/>
 <p>
-Go to DC-1 > Networking > Network Interface > IP Configuration > change IP Address to Static. It being dynamic will make it difficult for the vm to communicate with our client vm
+Go to DC-1 click on Networking under Setttings, click on the Network Interface link. Go to IP configurations under Settings. Click on ipconfig link to open up a window, change the IP Configuration to Static under Allocation
 <p>
