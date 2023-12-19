@@ -98,3 +98,5 @@ When logging into DC-1 through RDP, rememeber to login with the correct credenti
 <p>
 Organizational Units act like folders that hold information, privelages, and login access of users in the directory. In the Server Manager dashboard, go to Tools tab and open the Active Directory Users and Computers console, right click on the domain (mydomain.com) and make two OUs, _admins and _employees. These names are needed for a later step where we create multiple accounts. In _admins OU we'll create the user Jane Doe with the username jane_admin and password of your choice.
 <p>
+<img src="https://i.imgur.com/Y8JmdnM.png" height="60%" width="60%" alt="Disk Sanitization Steps"/>
+<p>
