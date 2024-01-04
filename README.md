@@ -7,7 +7,7 @@ This tutorial demonstrates how to install and configure Active Directory using A
 </p>
 
 <h3>Environments and Technologies Used</h3>
-<ul>
+
 <li>Microsoft Azure (Virtual Machines/Compute)</li>
 <li>Remote Desktop</li>
 <li>Active Directory Domain Services</li>
