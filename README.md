@@ -58,7 +58,7 @@ Connect to Remote Desktop with Client-1 public ip address. Open command prompt a
 <p>
 Log into DC-1 vm, click start and open wf.msc in search bar to open windows defender firewall and advanced security. Go to Inbound Rules and enable the rules under the protocol ICMPv4, specifically Core Networking Diagnostics - ICMP Echo Request (ICMPv4-In).
 <p>
-<img src="https://i.imgur.com/ZtDs3kS.png" height="70%" width="70%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/hYBsgq0.png" height="70%" width="70%" alt="Disk Sanitization Steps"/>
 <p>
 Go to Client-1 vm and you should be able to see replies. Enter Ctrl C to end traffic
 <p>
