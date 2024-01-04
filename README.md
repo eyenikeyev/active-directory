@@ -6,7 +6,7 @@
 This tutorial demonstrates how to install and configure Active Directory using Azure. We will be using two virtual machines on Azure that are on the same virtual network. One virtual machine will be installed with Active Directory and configured to be the Domain Controller and other virtual machine will be used as a Client. Then, we will configure the Active Directory to allow the Client to join the domain as well as creating user accounts using a Powershell script. 
 </p>
 
-<h3>Environments and Technologies Used</h3>
+<h3>Environments and Technologies</h3>
 
 <li>Microsoft Azure (Virtual Machines/Compute)</li>
 <li>Remote Desktop</li>
@@ -16,7 +16,7 @@ This tutorial demonstrates how to install and configure Active Directory using A
 </ul>
 
 
-<h3>Operating Systems Used</h3>
+<h3>Operating Systems</h3>
 <ul>
 <li>Windows Server 2022</li>
 <li>Windows 10 Pro (21H2)</li>
