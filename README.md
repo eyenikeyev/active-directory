@@ -7,7 +7,7 @@ This tutorial demonstrates how to install and configure Active Directory using A
 
 <br />
 
-<h2>Environments and Technologies Used</h2>
+<h3>Environments and Technologies Used</h3>
 <ul>
   <li>Microsoft Azure (Virtual Machines/Compute)</li>
   <li>Remote Desktop</li>
@@ -18,7 +18,7 @@ This tutorial demonstrates how to install and configure Active Directory using A
 
 <br />
 
-<h2>Operating Systems Used</h2>
+<h3>Operating Systems Used</h3>
 <ul>
   <li>Windows Server 2022</li>
   <li>Windows 10 Pro (21H2)</li>
@@ -27,7 +27,7 @@ This tutorial demonstrates how to install and configure Active Directory using A
 <br />
 
 
-<h2>Installation Steps</h2>
+<h3>Installation Steps</h3>
 
 <h3>Creating Resources in Azure</h3>
 
@@ -88,7 +88,7 @@ When logging into DC-1 through RDP, rememeber to login with the correct credenti
 
 <br />
 
-<h2>Configuration Steps</h2>
+<h3>Configuration Steps</h3>
 
 <h3>Creating Organizational Units and Users</h3>
 
