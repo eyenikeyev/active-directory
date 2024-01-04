@@ -17,7 +17,7 @@ This tutorial demonstrates how to install and configure Active Directory using A
 
 
 <h3>Operating Systems</h3>
-<ul>
+
 <li>Windows Server 2022</li>
 <li>Windows 10 Pro (21H2)</li>
 </ul>
