@@ -4,27 +4,23 @@
 
 <h1 align = "center">Installing and Configuring Active Directory</h1>
 This tutorial demonstrates how to install and configure Active Directory using Azure. We will be using two virtual machines on Azure that are on the same virtual network. One virtual machine will be installed with Active Directory and configured to be the Domain Controller and other virtual machine will be used as a Client. Then, we will configure the Active Directory to allow the Client to join the domain as well as creating user accounts using a Powershell script. 
-
-<br />
+</p>
 
 <h3>Environments and Technologies Used</h3>
 <ul>
-  <li>Microsoft Azure (Virtual Machines/Compute)</li>
-  <li>Remote Desktop</li>
-  <li>Active Directory Domain Services</li>
-  <li>Powershell</li>
-  <li>Notepad (Optional): for writing down usernames and passwords for virtual machines</li>
+<li>Microsoft Azure (Virtual Machines/Compute)</li>
+<li>Remote Desktop</li>
+<li>Active Directory Domain Services</li>
+<li>Powershell</li>
+<li>Notepad (Optional): for writing down usernames and passwords for virtual machines</li>
 </ul>
 
-<br />
 
 <h3>Operating Systems Used</h3>
 <ul>
-  <li>Windows Server 2022</li>
-  <li>Windows 10 Pro (21H2)</li>
+<li>Windows Server 2022</li>
+<li>Windows 10 Pro (21H2)</li>
 </ul>
-
-<br />
 
 
 <h3>Installation Steps</h3>
