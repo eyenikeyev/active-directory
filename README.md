@@ -25,6 +25,7 @@ This tutorial demonstrates how to install and configure Active Directory using A
 
 <h3>Installation Steps</h3>
 
+<p>
 <h3>Creating Resources in Azure</h3>
 
 <p>
