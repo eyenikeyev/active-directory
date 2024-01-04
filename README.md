@@ -73,7 +73,7 @@ Go to Client-1 vm and you should be able to see replies. Enter Ctrl C to end tra
 <p>
 In DC-1, go to the Server Manager Dashboard and click on Add Roles and Features. Go through the installation process, at Server Roles check the box for Active Directory Domain Services.
 <p>
-<img src="https://i.imgur.com/a/pKIdTVq" height="60%" width="60%" alt="Disk Sanitization Steps"/>
+<img src="https://imgur.com/a/pKIdTVq" height="60%" width="60%" alt="Disk Sanitization Steps"/>
 <p>
 When installed, we now have to promote the server into a domain controller. You may notice a warning notification on the top right where the flag icon is. Click on that flag and click Promote this server to a domain controller. Click on Add a new forest and specify a domain name. For this tutorial, we'll name the domain: mydomain.com, specifiy the password, and proceed with the install. You will be automatically signed out, re-log in through Remote Desktop, and the installation is fully completed.
 <p>
