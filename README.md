@@ -117,7 +117,7 @@ Go to the Client vm, go to Settings then System, About, then Rename this PC (adv
 <p>
 Enter the domain and credentials in order to let the client join the domain (logging in as jane admin). For example, the login credentials have to be input as: mydomain.com\jane_admin
 <p>
-<img src="https://i.imgur.com/xdmpH5U.png" height="60%" width="60%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/ZMlwMPN.png" height="60%" width="60%" alt="Disk Sanitization Steps"/>
 <p>
 Remote Desktop has to be enabled for non administrative users, before users in the domain can use the client computer. While logged in as the administrator (jane_admin), open System Properties. Click on Remote Desktop and Select users that can remotely access this PC, select Add, and enter domain users.
 <p>
