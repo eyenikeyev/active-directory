@@ -111,17 +111,17 @@ Exit out of the vm, sign back in with username jane_admin
 <p>
 Access the Azure Portal and go to DC-1, go to networking and take note of the private ip address. Repeat the same steps for Client-1 click on the link next to network interface. In DNS servers under Settings, set the DNS server to Custom. Then enter DC-1 private ip address and save. Go to Client vm and restart it to save changes.
 <p>
-<img src="https://i.imgur.com/hMYOxvV.png" height="65%" width="65%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/hMYOxvV.png" height="60%" width="60%" alt="Disk Sanitization Steps"/>
 <p>
 Go to the Client vm, go to Settings then System, About, then Rename this PC (advanced)
 <p>
 Enter the domain and credentials in order to let the client join the domain (logging in as jane admin). For example, the login credentials have to be input as: mydomain.com\jane_admin
 <p>
-<img src="https://i.imgur.com/ZMlwMPN.png" height="65%" width="65%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/ZMlwMPN.png" height="60%" width="60%" alt="Disk Sanitization Steps"/>
 <p>
 Remote Desktop has to be enabled for non administrative users, before users in the domain can use the client computer. While logged in as the administrator (jane_admin), open System Properties. Click on Remote Desktop and Select users that can remotely access this PC, select Add, and enter domain users.
 <p>
-<img src="https://i.imgur.com/jcb8ZQA.png" height="60%" width="60%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/jcb8ZQA.png" height="55%" width="55%" alt="Disk Sanitization Steps"/>
 <p>
 </p>
 
