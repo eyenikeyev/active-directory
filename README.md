@@ -32,17 +32,17 @@ This tutorial demonstrates how to install and configure Active Directory using A
 </p>
 Go to Azure Portal, create a virtual machine for the Domain Controller, name it DC-1
 </p>
-<img src="https://i.imgur.com/8ryNTmy.png" height="60%" width="60%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/8ryNTmy.png" height="65%" width="65%" alt="Disk Sanitization Steps"/>
 <p>
 Create a second virtual machine for the Cient and name it Client-1, the vms should be on the same virtual networks. Give the resources some time to load, approximately five to ten minutes
 <p>
-<img src="https://i.imgur.com/FODGjhk.png" height="60%" width="60%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/FODGjhk.png" height="65%" width="65%" alt="Disk Sanitization Steps"/>
 <p>
 Go to DC-1 click on Networking under Setttings, click on the Network Interface link. Go to IP configurations under Settings. Click on ipconfig link to open up a window, change the IP Configuration to Static under Allocation
 <p>
 It being dynamic will make it difficult for the vm to communicate with our client vm
 <p>
-<img src="https://i.imgur.com/lhj8Kl1.png" height="60%" width="60%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/lhj8Kl1.png" height="65%" width="65%" alt="Disk Sanitization Steps"/>
 <p>
 </p>
 
@@ -54,15 +54,15 @@ It being dynamic will make it difficult for the vm to communicate with our clien
 <p>
 Connect to Remote Desktop with Client-1 public ip address. Open command prompt and enter the command ping -t [DC-1 private ip address]. To send endless ping in order ensure reachability with the Domain Controller. Connection should time out after the first ping due to the Domain Controller's Firewall Settings.
 <p>
-<img src="https://i.imgur.com/7xYDABl.png" height="60%" width="60%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/7xYDABl.png" height="65%" width="65%" alt="Disk Sanitization Steps"/>
 <p>
 Log into DC-1 vm, click start and open wf.msc in search bar to open windows defender firewall and advanced security. Go to Inbound Rules and enable the rules under the protocol ICMPv4, specifically Core Networking Diagnostics - ICMP Echo Request (ICMPv4-In).
 <p>
-<img src="https://i.imgur.com/hYBsgq0.png" height="70%" width="70%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/hYBsgq0.png" height="75%" width="75%" alt="Disk Sanitization Steps"/>
 <p>
 Go to Client-1 vm and you should be able to see replies. Enter Ctrl C to end traffic
 <p>
-<img src="https://i.imgur.com/AxMjWDC.png" height="60%" width="60%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/AxMjWDC.png" height="65%" width="65%" alt="Disk Sanitization Steps"/>
 <p>
 </p>
 
@@ -73,13 +73,13 @@ Go to Client-1 vm and you should be able to see replies. Enter Ctrl C to end tra
 <p>
 In DC-1, go to the Server Manager Dashboard and click on Add Roles and Features. Go through the installation process, at Server Roles check the box for Active Directory Domain Services.
 <p>
-<img src="https://i.imgur.com/PzoHssP.png" height="60%" width="60%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/PzoHssP.png" height="65%" width="65%" alt="Disk Sanitization Steps"/>
 <p>
 When installed, we now have to promote the server into a domain controller. You may notice a warning notification on the top right where the flag icon is. Click on that flag and click Promote this server to a domain controller. Click on Add a new forest and specify a domain name. For this tutorial, we'll name the domain: mydomain.com, specifiy the password, and proceed with the install. You will be automatically signed out, re-log in through Remote Desktop, and the installation is fully completed.
 <p>
-<img src="https://i.imgur.com/je6ps2Q.png" height="60%" width="60%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/je6ps2Q.png" height="65%" width="65%" alt="Disk Sanitization Steps"/>
 <p>
-<img src="https://i.imgur.com/jMkYyS8.png" height="60%" width="60%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/jMkYyS8.png" height="65%" width="65%" alt="Disk Sanitization Steps"/>
 <p>
 When logging into DC-1 through RDP, rememeber to login with the correct credentials. For example mydomain.com\labuser
 <p>
@@ -94,11 +94,11 @@ When logging into DC-1 through RDP, rememeber to login with the correct credenti
 <p>
 Organizational Units act like folders that hold information, privelages, and login access of users in the directory. In the Server Manager dashboard, go to Tools tab and open the Active Directory Users and Computers console, right click on the domain (mydomain.com) and make two OUs, _admins and _employees. These names are needed for a later step where we create multiple accounts. In _admins OU we'll create the user Jane Doe with the username jane_admin and password of your choice.
 <p>
-<img src="https://i.imgur.com/HNxDcVs.png" height="60%" width="60%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/HNxDcVs.png" height="65%" width="65%" alt="Disk Sanitization Steps"/>
 <p>
 Go to the user Jane Doe and open Properties, add her in Member Of as Domain Admins. This is to grant Jane admin privileges.
 <p>
-<img src="https://i.imgur.com/Yhn7ptF.png" height="60%" width="60%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/Yhn7ptF.png" height="65%" width="65%" alt="Disk Sanitization Steps"/>
 <p>
 Exit out of the vm, sign back in with username jane_admin
 <p>
@@ -111,13 +111,13 @@ Exit out of the vm, sign back in with username jane_admin
 <p>
 Access the Azure Portal and go to DC-1, go to networking and take note of the private ip address. Repeat the same steps for Client-1 click on the link next to network interface. In DNS servers under Settings, set the DNS server to Custom. Then enter DC-1 private ip address and save. Go to Client vm and restart it to save changes.
 <p>
-<img src="https://i.imgur.com/hMYOxvV.png" height="60%" width="60%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/hMYOxvV.png" height="65%" width="65%" alt="Disk Sanitization Steps"/>
 <p>
 Go to the Client vm, go to Settings then System, About, then Rename this PC (advanced)
 <p>
 Enter the domain and credentials in order to let the client join the domain (logging in as jane admin). For example, the login credentials have to be input as: mydomain.com\jane_admin
 <p>
-<img src="https://i.imgur.com/ZMlwMPN.png" height="60%" width="60%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/ZMlwMPN.png" height="65%" width="65%" alt="Disk Sanitization Steps"/>
 <p>
 Remote Desktop has to be enabled for non administrative users, before users in the domain can use the client computer. While logged in as the administrator (jane_admin), open System Properties. Click on Remote Desktop and Select users that can remotely access this PC, select Add, and enter domain users.
 <p>
